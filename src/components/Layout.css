@@ -44,3 +44,16 @@
     background-color: brown;
     border-right: 1px solid white;
 }
+.Layout-Grid {
+    display: grid;
+
+    background-color: chocolate;
+
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    grid-template-rows: repeat(4, minmax(250px, 1fr));
+
+}
+
+.Layout-Item {
+    border: 1px solid crimson;
+}
